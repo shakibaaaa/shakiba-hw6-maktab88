@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+.box-parent {
+    padding-right: 200px;
+      display: flex;
+      flex-wrap: nowrap;
+      background-color: rgb(186, 255, 201);
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center;
+    }
+    .green {
+      margin: 10px;
+      line-height: 75px;
+      font-size: 10px;
+      text-align: start;
+      padding-right: 800px;
+    
+   
+    }
+   
+   .yellow-box {
+    padding: 20px;
+    margin: 20px;
+    width:200px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 186);
+   }
+ 
+  .yellow {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: flex-start;
+     
+    }
+    .flex-item-left{
+      background-color:white;
+      width: 150px;
+      height: 50px;
+      padding: 5px;
+      margin: 10px;
+     
+      
+      }
+    
+  
+  .orange-box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+    background-color: rgb(255, 223, 186)
+    }
+    .orange{
+      text-align: end;
+      line-height: 30px;
+    }
+.blue-box{
+  width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+    background-color: rgb(186, 225, 225)
+
+}
+.blue{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.red-box{
+  padding: 20px;
+  margin: 20px;
+  width:200px;
+  height:400px;
+  display: flex;
+  flex-direction: column;
+  background-color:rgb(255, 179, 186);
+}
+.red {
+  text-align: start;
+  line-height: 30px;
+}
+.flex-item{
+  background-color:white;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  margin: 10px;
+ 
+  
+  }
